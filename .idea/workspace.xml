@@ -9,8 +9,200 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="340ff1c5-0f8d-4feb-9633-fd57d120a37e" name="Changes" comment="최초커밋">
+    <list default="true" id="340ff1c5-0f8d-4feb-9633-fd57d120a37e" name="Changes" comment="부트스트랩 템플릿 적용">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BattleGround_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/classes/com/bo/battle/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/classes/com/bo/battle/SseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/classes/com/bo/battle/SseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/classes/config/logback/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/classes/config/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/classes/config/spring/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/jsp/exception/WEB_404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/logback-classic-1.2.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/logback-core-1.2.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/mybatis-3.4.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/slf4j-api-1.7.32.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-aop-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-aop-5.1.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-beans-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-beans-5.1.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-context-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-context-5.1.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-core-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-core-5.1.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-expression-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-expression-5.1.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-jcl-5.1.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-jdbc-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-tx-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-web-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-web-5.1.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-webmvc-4.3.25.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/spring-webmvc-5.1.12.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/resources/jquery/jquery-1.11.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/logback/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/root-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/spring/servlet-context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/exception/WEB_404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/apple-touch-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/clients/client-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/clients/client-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/clients/client-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/clients/client-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/clients/client-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/clients/client-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/clients/client-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/clients/client-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/counts-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/cta-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/features.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/hero-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-details-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-details-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/portfolio/portfolio-details-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/slide/slide-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/team/team-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/team/team-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/team/team-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/team/team-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/testimonials-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/testimonials/testimonials-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/testimonials/testimonials-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/testimonials/testimonials-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/testimonials/testimonials-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/img/testimonials/testimonials-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/scss/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/aos/aos.cjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/aos/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/aos/aos.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/aos/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/aos/aos.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap-icons/bootstrap-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap-icons/bootstrap-icons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap-icons/bootstrap-icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap-icons/bootstrap-icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/css/animations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/css/boxicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/css/boxicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/css/transformations.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/fonts/boxicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/fonts/boxicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/fonts/boxicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/fonts/boxicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/boxicons/fonts/boxicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/glightbox/css/glightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/glightbox/css/glightbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/glightbox/css/plyr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/glightbox/css/plyr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/glightbox/js/glightbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/glightbox/js/glightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/isotope-layout/isotope.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/isotope-layout/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/php-email-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/purecounter/purecounter_vanilla.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/purecounter/purecounter_vanilla.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.glyph.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.symbol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/remixicon/remixicon.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/swiper/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/swiper/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/assets/vendor/swiper/swiper-bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/forms/Readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/forms/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/resources/jquery/jquery-1.11.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bo/battle/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bo/battle/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/classes/config/root-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/BattleGround_war_exploded/WEB-INF/classes/config/servlet-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +218,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="local" />
+                    <option name="lastUsedInstant" value="1707815837" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1707815836" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -38,9 +258,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2cIldd86cGEAfCcHUUlRBTgfNqm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -59,9 +279,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat-8.5.16.executor": "Debug",
-    "git-widget-placeholder": "master",
+    "Tomcat Server.index.jsp.executor": "Debug",
+    "git-widget-placeholder": "local",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/IntelliJ/BattleGround",
+    "last_opened_file_path": "D:/IntelliJ/BattleGround/web/resources/bootstrap",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,17 +291,35 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.build",
+    "settings.editor.selected.configurable": "sshConsole",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IntelliJ\BattleGround\web\resources\bootstrap" />
+      <recent name="D:\IntelliJ\BattleGround\web\WEB-INF\jsp" />
+      <recent name="D:\IntelliJ\BattleGround\web\WEB-INF\jsp\exception" />
+      <recent name="D:\IntelliJ\BattleGround\src\main\resources\config\logback" />
+      <recent name="D:\IntelliJ\BattleGround\src\main\resources\config\" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IntelliJ\BattleGround\src\main\resources\config" />
-      <recent name="D:\IntelliJ\BattleGround\src\main\resources" />
+      <recent name="D:\IntelliJ\BattleGround\web\resources\bootstrap\js" />
+      <recent name="D:\IntelliJ\BattleGround\web\resources\bootstrap\css" />
+      <recent name="D:\IntelliJ\BattleGround\web\resources\css" />
+      <recent name="D:\IntelliJ\BattleGround\web\WEB-INF\jsp\exception" />
+      <recent name="D:\IntelliJ\BattleGround\web\WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bo.battle" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="../resources/" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat-8.5.16">
     <configuration name="Tomcat-8.5.16" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat-8.5.16" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -170,6 +409,72 @@
         </option>
       </method>
     </configuration>
+    <configuration name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8088/WEB-INF/jsp/index.jsp" />
+      <deployment>
+        <artifact name="BattleGround:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BattleGround_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="937c5c2e-359e-4231-b63e-d585e4ecf5a4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58644" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BattleGround:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat-8.5.16" />
+      <item itemvalue="Tomcat Server.index.jsp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.index.jsp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -179,7 +484,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707807061845</updated>
-      <workItem from="1707807062779" duration="5038000" />
+      <workItem from="1707807062779" duration="13645000" />
+      <workItem from="1707955280897" duration="15750000" />
     </task>
     <task id="LOCAL-00001" summary="최초커밋">
       <option name="closed" value="true" />
@@ -189,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707815029255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="최초커밋">
+      <option name="closed" value="true" />
+      <created>1707815203126</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707815203126</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +511,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="최초커밋" />
-    <option name="LAST_COMMIT_MESSAGE" value="최초커밋" />
+    <MESSAGE value="부트스트랩 템플릿 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="부트스트랩 템플릿 적용" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
