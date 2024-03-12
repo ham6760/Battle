@@ -26,7 +26,7 @@ public class BgkbController {
     public JSONObject bgkb() {
         logger.info("----------------------PUBG API Start----------------------");
         String service = "steam";
-        String userId = "ISFP0726";
+        String userId = "";
         String key = "";
 
         String url = "https://api.pubg.com/shards/" + service + "/players?filter[playerNames]=" + userId;
